@@ -1,0 +1,266 @@
+
+A control-theory inspired model for
+criminal justice capacity management
+Fixed Capacity Penal System
+
+Vanni B.
+July 2026
+
+
+Contents
+1 Author’s purpose 2
+2 Introduction 3
+3 Definition of the CAP limit 4
+3.1 Model variables . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+4 Criminal flow dynamics 5
+5 Dual-track model 6
+5.1 First track: ordinary management . . . . . . . . . . . . . . . . 6
+5.2 Second track: high criticality management . . . . . . . . . . . 6
+6 System saturation 8
+6.1 Systemic risk factor . . . . . . . . . . . . . . . . . . . . . . . . 9
+7 Economic analysis 10
+8 Consideration of offenses 11
+9 Deterrence analysis 12
+10 Conclusion 13
+
+
+
+Chapter 1    Author’s purpose
+
+In traditional penal systems, the evaluation of the punitive response is mainly
+based on the classification of the individual offense and the corresponding
+legal framework provided.
+This approach presents a structurally static characteristic: every signif-
+icant variation in criminal policy objectives normally requires a legislative
+and institutional intervention.
+The proposed model introduces instead a parametric perspective, in which
+the overall functioning of the system is regulated through fundamental vari-
+ables defined in advance.
+The identification of a key parameter allows, in theoretical terms, the
+equilibrium of the system to be modified without changing the overall struc-
+ture of individual criminal offenses, but by directly acting on the reference
+value that determines the behavior of the model.
+This approach aims to transform the system from a predominantly reac-
+tive and fragmented structure into a dynamic system, where objectives re-
+lated to security, sustainability, and resource management can be regulated
+through measurable parameters.
+The hypothesis underlying the model is that part of the systemic inef-
+ficiency derives not only from individual laws, but also from the difficulty
+of rapidly adapting the entire system to changes in social, economic, and
+demographic conditions.
+
+
+
+Chapter 2    Introduction
+
+This document describes a theoretical model of criminality management
+based on the concept of a maximum constrained penal capacity.
+The objective is to analyze a dynamic system in which the population
+subject to penal restrictions is regulated through a maximum quantitative
+limit (CAP), defined in relation to the general population or to a percentage
+of GDP.
+The model is studied as a mathematical problem of resource management,
+optimization, and flow control.
+The model is based on the attempt to provide complete certainty of pun-
+ishment, while in situations of critical system conditions increasing severity
+without creating additional costs for taxpayers.
+
+
+
+Chapter 3   Definition of the CAP limit
+The CAP, or maximum prison population threshold, would become an indi-
+cator of the stability of the state itself.
+Once the CAP is exceeded, the state would face a criminality problem
+that could justify extraordinary interventions aimed at restoring public order.
+For simplicity, the model is based on a population quota; however, a vari-
+ant based on dedicated GDP expenditure could potentially be more effective.
+3.1 Model variables
+Let:
+• Ptot = total population of the State;
+• D(t) = penal population at time t;
+• Dmax = maximum capacity of the system.
+The main constraint is:
+D(t) ≤ Dmax (3.1)
+where:
+Dmax = αPtot (3.2)
+with:
+α = 0.01 (3.3)
+The model therefore assumes a theoretical maximum capacity equal to
+1% of the population.
+
+
+
+Chapter 4  Criminal flow dynamics
+
+The variation of the penal population is described as:
+D(t + 1) = D(t) + I(t) − R(t) (4.1)
+where:
+• I(t) = new entries;
+• R(t) = exits from the system.
+Stability occurs when:
+I(t) = R(t) (4.2)
+while:
+I(t) > R(t) (4.3)
+leads to saturation. “‘latex
+
+
+
+Chapter 5  Dual-track model
+
+The model distinguishes two operational categories:
+5.1 First track: ordinary management
+This category includes:
+• negligent offenses;
+• non-violent violations;
+• situations characterized by low social risk.
+This pathway follows ordinary management procedures.
+5.2 Second track: high criticality management
+This category includes cases characterized by:
+• high severity;
+• intentional behavior;
+• elevated social risk.
+Priority is represented by the function:
+R = f (G, I, P ) (5.1)
+where:
+
+• G = severity;
+• I = intentionality;
+• P = probability of recidivism.
+
+
+
+Chapter 6  System saturation
+
+When:
+D(t) = Dmax (6.1)
+the system reaches its maximum capacity.
+From this point onward, the system must adapt to a condition of extreme
+social and institutional instability.
+Amnesty measures are excluded from the model because releasing indi-
+viduals due solely to a lack of capacity would increase instability rather than
+solve the structural problem.
+The model therefore introduces a theoretical evaluation algorithm where:
+• R = risk;
+• G = severity;
+• C = management cost.
+It should be emphasized that this condition represents a period of high
+social and economic instability of the state itself.
+In some jurisdictions, comparable conditions could lead to extraordinary
+public-order measures, while in others they could lead to different forms of
+penal adjustment.
+The model requires a formula capable of determining the social risk and
+management cost associated with individuals belonging to the second track
+during periods of prison overcrowding and increased systemic instability.
+The individuals exceeding the CAP would be classified according to their
+impact on system stability.
+Lower-risk cases could theoretically contribute through mandatory pro-
+ductive activities aimed at reducing system pressure, while the most extreme
+cases would require the highest level of legal sanction within the applicable
+framework.
+
+6.1 Systemic risk factor
+The introduction of this theoretical rule arises from the need to modify the
+decision-making process through which a potential offender evaluates the
+convenience of engaging in criminal behavior.
+In traditional models based on rational choice theory, the individual can
+be represented as a subject who compares the expected benefit derived from
+illegal activity with the potential damage associated with the expected sanc-
+tion.
+The present model introduces an additional evaluation element: a further
+systemic risk factor that modifies the cost-benefit calculation of criminal
+behavior.
+From this perspective, the consequence associated with illegal conduct
+is not determined exclusively by the individual act and its corresponding
+sanction, but also by the impact that the behavior produces on the overall
+stability of the social system.
+The principle underlying the model is that every individual contributes,
+to a different extent, to the dynamics of collective stability or instability.
+Although every human behavior represents a component of the aggre-
+gated system, the model assumes that the contribution to social risk is not
+uniform, but varies according to the nature, intensity, and consequences of
+the conduct.
+The theoretical objective of this rule is therefore to prevent criminal
+decision-making from being evaluated exclusively through a direct compari-
+son between personal benefit and expected punishment, introducing an ad-
+ditional component related to the overall risk generated by the behavior.
+
+
+Chapter 7  Economic analysis
+
+The economic analysis of the model is relatively simple because, by main-
+taining the prison population within a fixed population quota or, even more
+efficiently, within a fixed expenditure quota, the system would always oscil-
+late between the maximum accepted threshold and lower expenditure levels.
+The total cost is defined as:
+Ctot = D(t)cd (7.1)
+where:
+• D(t) = penal population;
+• cd = average cost per individual.
+A budget-based CAP variant could instead define:
+Cmax = Bpenal (7.2)
+where Bpenal represents the maximum sustainable penal budget.
+
+
+
+Chapter 8 Consideration of offenses
+
+Criminal offenses should be evaluated increasingly from a collective perspec-
+tive, considering not only the impact on the individual victim but also the
+effects on society as a whole.
+Offenses such as non-essential theft, sexual violence, and homicide should
+be analyzed according to their overall social danger, as they represent some
+of the primary factors affecting collective security.
+The deprivation of all assets belonging to a family can generate conse-
+quences comparable, from a social perspective, to extremely severe forms of
+harm.
+Actions affecting collective resources can indirectly reduce the ability of
+other individuals to access essential services and opportunities.
+Furthermore, attempting a crime or successfully completing it should be
+considered with comparable seriousness in terms of intent, since the failure
+of execution may depend on external circumstances rather than a voluntary
+decision to avoid the harm.
+Any reduction in consequence should primarily consider the impact on
+the victim rather than only the outcome achieved by the offender. 
+
+
+
+Chapter 9  Deterrence analysis
+
+More than being a deterrence model in the strict sense, the system is designed
+primarily to provide sustainability and adaptability, allowing the severity
+level to be adjusted by simply modifying a key parameter, such as the pop-
+ulation quota or the allocated expenditure budget.
+Regarding deterrence effects, the model assumes that the impact would be
+stronger on individuals capable of rational planning and premeditation, while
+the effect would be more limited on impulsive or non-calculating offenses.
+Individuals who engage in calculated criminal behavior are unlikely to
+fully accept unpredictable levels of personal risk associated with their future
+interaction with the penal system.
+Under the model, offenders would therefore be classified according to
+a severity scale, and the natural human instinct of self-preservation could
+paradoxically become a significant factor in discouraging criminal behavior.
+It is theoretically plausible that uncertainty regarding the future outcome
+of a criminal path could generate a strong psychological deterrent effect.
+Furthermore, even after completing a sentence, the perceived risk of re-
+turning to the system could represent an additional factor influencing future
+behavior.
+
+
+
+Chapter 10   Conclusion
+
+The population-based CAP model, or alternatively the budget-based CAP
+model, is designed to optimize the prison and legislative system in extreme
+conditions, functioning both as a deterrence mechanism and as a corrective
+measure.
+The objective is to prevent the productive and law-abiding population
+from being excessively affected by individuals who generate persistent social
+damage, by establishing clear limits regarding the level of instability tolerated
+by a state.
+The model therefore proposes evaluating criminality not only through the
+analysis of individual offenses, but also through their broader impact on the
+collective system and the historical conditions in which they occur.
+The CAP parameter represents a dynamic control variable intended to
+regulate the balance between public security, economic sustainability, and
+social stability.
+13
